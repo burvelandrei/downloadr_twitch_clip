@@ -4,6 +4,8 @@ from bs4 import BeautifulSoup
 
 link = input("Введите ссылку на клип: ")
 
+main_path = "B:\Projests\Downloader_twitch_clips\loaded_clips"
+
 response = requests.get(link)
 
 if response.status_code == 200:
