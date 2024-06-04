@@ -1,4 +1,5 @@
 import requests
+from twitchAPI import twitch
 from bs4 import BeautifulSoup
 
 
